@@ -1,0 +1,20 @@
+<form [formGroup]="form">
+    <div class="col-sm-4">
+
+    </div>
+    <div class="col-sm-4">
+        <label for="searchUser">Search User</label>
+        <input type="text" name="searchUserName" formControlName="searchUserName" class="form-control" id="searchUser"
+            placeholder="Enter User Name">
+        <div>
+            <small id="emailHelp" class="form-text text-muted">Please note that the name passed in the Search box should be
+                case sensitive</small>
+        </div>
+    </div>
+    <button (click)="filter()" class="btn btn-primary">Search</button>
+</form>
+
+
+<div class="col-sm-4">
+
+</div>
